@@ -1,0 +1,14 @@
+name: "Feature"
+description: "A confirmed feature on the roadmap that will be added"
+body:
+   type: input
+    id: suggestion
+    attributes:
+      label: "Suggestion ID"
+      description: "The ID to trace the original suggestion back"
+      placeholder: "Example: abc123def"
+  - type: textarea
+    id: information
+    attributes:
+      label: "Add"
+      description: "What is the feature in details"
